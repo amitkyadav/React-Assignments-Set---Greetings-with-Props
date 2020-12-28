@@ -4,7 +4,7 @@ export default function Welcome(props) {
   const l = props.name;
   return (
     <div>
-      <h1>Hey ! {l}</h1>
+      <h1>{l}</h1>
       <h2>Welcome to Newton School.</h2>
     </div>
   );
